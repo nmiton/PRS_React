@@ -1,0 +1,40 @@
+.form-newsletter{
+    width: 70%;
+    margin: 0 auto;
+}
+
+.form-text-label, .form-check-label{
+    font-size: 20px;
+}
+
+.form-text-input{
+    height: 2rem;
+    border-color: rgba(39, 39, 167, 0.651);
+}
+
+.form-title{
+    font-size: 30px;
+}
+
+.form-wrapper{
+    display: flex;
+    flex-direction: column;
+    margin-top: 2rem;
+}
+
+.form-wrapper label{
+    margin-bottom: 1rem;
+}
+.form-check{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 2rem;
+}
+
+.btn-newsletter{
+    margin: 2rem auto 0 auto;
+    display:block;
+    border-color: rgba(39, 39, 167, 0.651);
+}
+
+

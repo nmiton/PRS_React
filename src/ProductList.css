@@ -1,0 +1,50 @@
+.product-list-wrapper{
+    width: 80%;
+    margin : 0 auto;
+}
+
+.search-bar-wrapper{
+    width: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    margin: 2rem auto;
+}
+.checkbox-wrapper{
+    margin: 1rem auto;
+}
+
+.text-search-bar{
+    display: block;
+    width: 50%;
+    margin : 0 auto;
+    height: 2rem;
+    text-align: center;
+}
+
+.table-product{
+    width: 80%;
+    margin: 0 auto;
+}
+
+.table-product td {
+    padding: 1rem;
+}
+
+.table-product thead {
+    font-weight: 800;
+    text-align: left;
+}
+
+.product-category{
+    text-align: left;
+    font-weight: 550;
+}
+
+.product-out-stock{
+    color :rgba(197, 30, 30, 0.493);
+}
+
+
+
+

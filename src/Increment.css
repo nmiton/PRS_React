@@ -1,0 +1,47 @@
+.first-container {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin : 2rem auto;
+}
+
+.clock{
+    text-align: right;
+    margin: 2rem 0; 
+}
+.decrement{
+    display: flex;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.increment{
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem 0;
+    
+}
+
+.manual-increment {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.label-increment{
+    margin: 600rem;
+}
+.btn-increment{
+    display:block;
+    border-color: rgba(39, 39, 167, 0.651);
+    
+}
+
+.btn-manual-increment{
+    margin: 1rem auto;
+    display:block;
+    border-color: rgba(39, 39, 167, 0.651);
+    
+}
+
+
