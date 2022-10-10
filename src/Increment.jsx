@@ -1,5 +1,4 @@
 import React from "react";
-import './App.css'
 import "./Increment.css";
 
 class Clock extends React.Component {

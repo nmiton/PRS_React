@@ -3,6 +3,11 @@
     margin : 0 auto;
 }
 
+.title-product-list{
+    margin : 1rem 0 2rem 0;
+    font-size: 20px;
+}
+
 .search-bar-wrapper{
     width: auto;
     display: flex;
@@ -27,22 +32,26 @@
     margin: 0 auto;
 }
 
-.table-product td {
+.table-product td , .table-product tr{
     padding: 1rem;
 }
 
+.product-row{
+    text-align: center;
+}
+
 .table-product thead {
-    font-weight: 800;
-    text-align: left;
+    height: 2rem;
 }
 
 .product-category{
     text-align: left;
-    font-weight: 550;
+    padding: 1rem 3rem;
+    text-decoration: underline;
 }
 
 .product-out-stock{
-    color :rgba(197, 30, 30, 0.493);
+    color :rgba(197, 30, 30, 0.945);
 }
 
 

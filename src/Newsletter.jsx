@@ -1,7 +1,5 @@
 import React from "react";
 import "./Newsletter.css";
-import "./App.css";
-
 
 function Field ({name, value, onChange, children}) {
     return (

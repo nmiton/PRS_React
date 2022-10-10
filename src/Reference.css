@@ -1,0 +1,25 @@
+.ref-wrapper{
+    width: 80%;
+    margin : 0 auto;
+}
+
+.ref-wrapper h3 {
+    margin : 1rem 0 2rem 0;
+    font-size: 20px;
+}
+
+.test-wrapper{
+    display: flex;
+    justify-content: space-between;
+    max-width: 20rem;
+    margin: 0 auto;
+}
+
+.label-input-wrapper{
+    display: flex;
+    justify-content: space-between ;
+}
+
+.label-input-wrapper label{
+    margin : 0 1rem;
+}
