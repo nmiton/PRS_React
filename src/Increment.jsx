@@ -1,7 +1,8 @@
 import React from "react";
+import { Component } from "react";
 import "./Increment.css";
 
-class Clock extends React.Component {
+class Clock extends Component {
     
     constructor (props) {
         super(props)
@@ -28,7 +29,7 @@ class Clock extends React.Component {
     }
 }
 
-class Decrementer extends React.Component {
+class Decrementer extends Component {
     
     constructor (props) {
         super(props)
@@ -67,7 +68,7 @@ Decrementer.defaultProps = {
     step : 1,
 }
 
-class Incrementer extends React.Component {
+class Incrementer extends Component {
     
     constructor (props) {
         super(props)
@@ -134,7 +135,7 @@ Incrementer.defaultProps = {
     step : 1,
 }
 
-class ManualIncrementer extends React.Component{
+class ManualIncrementer extends Component{
     constructor (props) {
         super(props)
         this.state = {n: 0}

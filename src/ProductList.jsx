@@ -1,4 +1,5 @@
 import React from "react";
+import { Component } from "react";
 import './ProductList.css'
 
 const PRODUCTS = [
@@ -9,7 +10,7 @@ const PRODUCTS = [
     {category: 'Electronique', price: '$399.99', stocked: false, name: 'iPhone 5'},
     {category: 'Electronique', price: '$199.99', stocked: true, name: 'Nexus 7'}
 ];
-class ProductCategoryRow extends React.Component {
+class ProductCategoryRow extends Component {
     render() {
         const category = this.props.category;
         return (
@@ -34,7 +35,7 @@ const ProductRow = React.memo(function ({product}) {
             </tr>
         );
 })
-class ProductTable extends React.Component {
+class ProductTable extends Component {
     render() {
         const filterText = this.props.filterText;
         const inStockOnly = this.props.inStockOnly;
@@ -122,7 +123,7 @@ class SearchBar extends React.PureComponent {
         );
     }
 }
-class FilterableProductTable extends React.Component {
+class FilterableProductTable extends Component {
     constructor(props) {
         super(props);
         this.state = {

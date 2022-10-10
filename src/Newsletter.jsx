@@ -1,4 +1,5 @@
 import React from "react";
+import { Component } from "react";
 import "./Newsletter.css";
 
 function Field ({name, value, onChange, children}) {
@@ -19,7 +20,7 @@ function Checkbox ({name, checked, onChange, children}){
     )
 }
 
-class Form extends React.Component {
+class Form extends Component {
 
     constructor (props){
         super(props)

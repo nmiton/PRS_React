@@ -1,7 +1,9 @@
 import React from "react";
+import { Component } from "react";
+
 import './Reference.css'
 
-class Field extends React.Component{
+class Field extends Component{
     render(){
         return(
             <div className="label-input-wrapper">
@@ -16,7 +18,7 @@ const FieldWithRef = React.forwardRef((props,ref) =>{
     return <Field forwardRef={ref}{...props}/>
 })
 
-class Home extends React.Component {
+class Home extends Component {
     constructor(props){
         super(props)
         this.handleClick= this.handleClick.bind(this)

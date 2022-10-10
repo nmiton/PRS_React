@@ -1,4 +1,5 @@
 import React from "react";
+import { Component } from "react";
 import "./Converter.css";
 
 const scaleNames = {
@@ -37,7 +38,7 @@ function BoilingVerdict(props) {
     return null;
 }
 
-class TemperatureInput extends React.Component {
+class TemperatureInput extends Component {
     constructor(props) {
         super(props);
         this.handleChange = this.handleChange.bind(this);
@@ -84,7 +85,7 @@ function DoubleColumns ({left, right}){
     )
 }
 
-class Calculator extends React.Component {
+class Calculator extends Component {
     constructor(props) {
         super(props);
         this.handleCelsiusChange = this.handleCelsiusChange.bind(this);
