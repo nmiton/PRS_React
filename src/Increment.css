@@ -1,3 +1,15 @@
+.title-wrapper{
+    margin : 1rem 0;
+    font-size: 20px;
+}
+
+.count-wrapper{
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    margin : 0 auto;
+}
+
 .first-container {
     display: flex;
     flex-direction: column;

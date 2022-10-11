@@ -1,0 +1,32 @@
+.personal-hook-wrapper{
+    margin : 0 auto;
+}
+
+.personal-hook-wrapper button{
+    color : red,
+}
+
+.personal-hook-wrapper .count-visible-condition{
+    display: flex;
+    justify-content: space-around;
+    width: 50%;
+    margin : 1rem auto;
+}
+
+.personal-hook-wrapper .todo-list{
+    width: 80%;
+    margin : 3rem auto;
+}
+
+.personal-hook-wrapper .todo-list li{
+    margin: 1rem;
+    list-style: square;
+}
+
+.personal-hook-wrapper .post-table{
+    width: 100%;
+}
+
+.personal-hook-wrapper .post-table td{
+    width: auto;
+}
